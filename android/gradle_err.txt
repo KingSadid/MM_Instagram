@@ -1,0 +1,60 @@
+.\gradlew.bat : WARNING: A restricted method in 
+java.lang.System has been called
+En l?nea: 1 Car?cter: 5
++ & { .\gradlew.bat assembleDebug } *>&1 | 
+Out-File -Encoding ASCII gra ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WA 
+   RNING: A rest...has been called:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+WARNING: java.lang.System::load has been called 
+by net.rubygrapefruit.platform.internal.NativeLi
+braryLoader in an unnamed module (file:/C:/Users
+/USUARIO/.gradle/wrapper/dists/gradle-8.12.1-bin
+/eumc4uhoysa37zql93vfjkxy0/gradle-8.12.1/lib/nat
+ive-platform-0.22-milestone-27.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED 
+to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in 
+a future release unless native access is enabled
+
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\dev\MM_Instagram\android\app\buil
+d.gradle.kts' line: 1
+
+* What went wrong:
+An exception occurred applying plugin request 
+[id: 'com.android.application']
+> Failed to apply plugin 
+'com.android.internal.version-check'.
+   > Minimum supported Gradle version is 8.13. 
+Current version is 8.12.1.
+     Try updating the 'distributionUrl' 
+property in C:\dev\MM_Instagram\android\gradle\w
+rapper\gradle-wrapper.properties to 
+'gradle-8.13-bin.zip'.
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more 
+log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+4 actionable tasks: 4 up-to-date
