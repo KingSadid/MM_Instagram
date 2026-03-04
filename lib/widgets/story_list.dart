@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../data/dummy_data.dart';
-import '../../../shared/widgets/custom_network_image.dart';
-import '../../../core/theme/app_colors.dart';
+import 'package:instagram/utils/dummy_data.dart';
+import 'package:instagram/widgets/custom_network_image.dart';
+import 'package:instagram/utils/app_colors.dart';
 
 class StoryList extends StatelessWidget {
   const StoryList({super.key});

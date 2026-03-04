@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../core/theme/app_colors.dart';
-import '../features/home/home_screen.dart';
-import '../features/search/search_screen.dart';
-import '../features/reels/reels_screen.dart';
-import '../features/shop/shop_screen.dart';
-import '../features/profile/profile_screen.dart';
+import 'package:instagram/utils/app_colors.dart';
+import 'package:instagram/screens/home_screen.dart';
+import 'package:instagram/screens/search_screen.dart';
+import 'package:instagram/screens/reels_screen.dart';
+import 'package:instagram/screens/shop_screen.dart';
+import 'package:instagram/screens/profile_screen.dart';
 
 class MainWrapper extends StatefulWidget {
   const MainWrapper({super.key});

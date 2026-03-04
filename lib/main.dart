@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'core/theme/app_theme.dart';
-import 'navigation/main_wrapper.dart';
+import 'package:instagram/utils/app_theme.dart';
+import 'package:instagram/screens/main_wrapper.dart';
 
 void main() {
   runApp(const InstagramApp());

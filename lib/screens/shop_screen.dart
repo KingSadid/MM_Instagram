@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../shared/widgets/custom_network_image.dart';
+import 'package:instagram/widgets/custom_network_image.dart';
 
 class ShopScreen extends StatelessWidget {
   const ShopScreen({super.key});

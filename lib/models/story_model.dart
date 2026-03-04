@@ -1,4 +1,4 @@
-import 'user_model.dart';
+import 'package:instagram/models/user_model.dart';
 
 class StoryModel {
   final String id;

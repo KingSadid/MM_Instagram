@@ -1,5 +1,5 @@
-import 'user_model.dart';
-import 'comment_model.dart';
+import 'package:instagram/models/user_model.dart';
+import 'package:instagram/models/comment_model.dart';
 
 class PostModel {
   final String id;

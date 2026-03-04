@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../models/post_model.dart';
-import '../../../shared/widgets/custom_network_image.dart';
-import '../../../core/theme/app_colors.dart';
+import 'package:instagram/models/post_model.dart';
+import 'package:instagram/widgets/custom_network_image.dart';
+import 'package:instagram/utils/app_colors.dart';
 
 class PostCard extends StatefulWidget {
   final PostModel post;

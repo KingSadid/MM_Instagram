@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../data/dummy_data.dart';
-import '../../shared/widgets/custom_network_image.dart';
+import 'package:instagram/utils/dummy_data.dart';
+import 'package:instagram/widgets/custom_network_image.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});

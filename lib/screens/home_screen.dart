@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../data/dummy_data.dart';
-import 'widgets/story_list.dart';
-import 'widgets/post_card.dart';
+import 'package:instagram/utils/dummy_data.dart';
+import 'package:instagram/widgets/story_list.dart';
+import 'package:instagram/widgets/post_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

@@ -1,7 +1,7 @@
-import '../models/user_model.dart';
-import '../models/post_model.dart';
-import '../models/comment_model.dart';
-import '../models/story_model.dart';
+import 'package:instagram/models/user_model.dart';
+import 'package:instagram/models/post_model.dart';
+import 'package:instagram/models/comment_model.dart';
+import 'package:instagram/models/story_model.dart';
 
 class DummyData {
   static final UserModel currentUser = const UserModel(
