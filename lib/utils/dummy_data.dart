@@ -89,8 +89,6 @@ class DummyData {
   }
 
   static List<String> get reelsVideos {
-    // For now we simulate reels using images since we can't use external video_player plugins 
-    // without breaking the zero-dependency rule, but we'll adapt it visually to look like a reel with PageView.
     return List.generate(5, (index) => 'https://picsum.photos/seed/reel_$index/600/1200');
   }
 }
