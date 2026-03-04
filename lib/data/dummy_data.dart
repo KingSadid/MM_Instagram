@@ -17,11 +17,11 @@ class DummyData {
 
   static final List<UserModel> users = [
     currentUser,
-    const UserModel(id: 'u1', username: 'alexandra', profileImageUrl: 'https://i.pravatar.cc/150?img=1', fullName: 'Alexandra', bio: 'Photography'),
-    const UserModel(id: 'u2', username: 'mike_smith', profileImageUrl: 'https://i.pravatar.cc/150?img=3', fullName: 'Mike Smith', bio: 'Code life'),
-    const UserModel(id: 'u3', username: 'sarah_j', profileImageUrl: 'https://i.pravatar.cc/150?img=5', fullName: 'Sarah Jenkins', bio: 'Traveler'),
-    const UserModel(id: 'u4', username: 'david_dev', profileImageUrl: 'https://i.pravatar.cc/150?img=8', fullName: 'David Dev', bio: 'iOS & Android'),
-    const UserModel(id: 'u5', username: 'emma_w', profileImageUrl: 'https://i.pravatar.cc/150?img=9', fullName: 'Emma Wilson', bio: 'Designer'),
+    const UserModel(id: 'u1', username: 'Brian Zambranou', profileImageUrl: 'https://i.pravatar.cc/150?img=1', fullName: 'El Gordo de mierda', bio: 'Photography'),
+    const UserModel(id: 'u2', username: 'Juan el forro Goyeneche', profileImageUrl: 'https://i.pravatar.cc/150?img=3', fullName: 'Juan chiquinquirá', bio: 'Code life'),
+    const UserModel(id: 'u3', username: 'Angellus', profileImageUrl: 'https://i.pravatar.cc/150?img=5', fullName: 'Angelly Parra', bio: 'Traveler'),
+    const UserModel(id: 'u4', username: 'El cubitos de Andrés', profileImageUrl: 'https://i.pravatar.cc/150?img=8', fullName: 'Andrés Cubillos', bio: 'iOS & Android'),
+    const UserModel(id: 'u5', username: 'Christian Dior', profileImageUrl: 'https://i.pravatar.cc/150?img=9', fullName: 'Dior', bio: 'Designer'),
   ];
 
   static List<StoryModel> get stories {
