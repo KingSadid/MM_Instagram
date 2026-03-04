@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
         title: const Text(
           'Instagram',
           style: TextStyle(
-            fontFamily: 'InstaFont', // We'll add a generic one or use cursive
+            fontFamily: 'InstaFont', 
             fontSize: 28,
             fontWeight: FontWeight.bold,
           ),
