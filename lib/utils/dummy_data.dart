@@ -6,9 +6,9 @@ import 'package:instagram/models/story_model.dart';
 class DummyData {
   static final UserModel currentUser = const UserModel(
     id: 'u0',
-    username: 'john_doe',
+    username: 'alejandro_gotico',
     profileImageUrl: 'https://i.pravatar.cc/150?img=11',
-    fullName: 'John Doe',
+    fullName: 'Alejandro el gotico',
     bio: 'Flutter Developer & Designer\nBuilding awesome native apps.',
     followers: 12500,
     following: 154,
@@ -30,7 +30,7 @@ class DummyData {
       return StoryModel(
         id: 's_$index',
         user: user,
-        imageUrl: 'https://picsum.photos/id/${10 + index * 5}/400/800', // Unique vertical random image
+        imageUrl: 'https://picsum.photos/seed/story_$index/400/800', // Unique vertical random image
         isViewed: index > 3,
       );
     }).toList();
@@ -41,7 +41,7 @@ class DummyData {
       PostModel(
         id: 'p1',
         user: users[1],
-        imageUrls: ['https://picsum.photos/id/1015/800/800', 'https://picsum.photos/id/1016/800/800'],
+        imageUrls: ['https://picsum.photos/seed/p1_1/800/800', 'https://picsum.photos/seed/p1_2/800/800'],
         caption: 'Exploring the mountains today. What a view!',
         likes: 1234,
         createdAt: DateTime.now().subtract(const Duration(hours: 2)),
@@ -54,7 +54,7 @@ class DummyData {
       PostModel(
         id: 'p2',
         user: users[2],
-        imageUrls: ['https://picsum.photos/id/1025/800/800'],
+        imageUrls: ['https://picsum.photos/seed/p2/800/800'],
         caption: 'Morning coffee and coding session. Perfect combo',
         likes: 567,
         createdAt: DateTime.now().subtract(const Duration(hours: 5)),
@@ -66,7 +66,7 @@ class DummyData {
       PostModel(
         id: 'p3',
         user: users[5],
-        imageUrls: ['https://picsum.photos/id/1035/800/800'],
+        imageUrls: ['https://picsum.photos/seed/p3/800/800'],
         caption: 'New design concept I have been working on.',
         likes: 890,
         createdAt: DateTime.now().subtract(const Duration(days: 1)),
@@ -80,7 +80,7 @@ class DummyData {
       return PostModel(
         id: 'explore_$index',
         user: users[index % users.length],
-        imageUrls: ['https://picsum.photos/id/${200 + index}/600/600'],
+        imageUrls: ['https://picsum.photos/seed/explore_$index/600/600'],
         caption: 'Random post #$index from explore!',
         likes: (index * 42) % 1000,
         createdAt: DateTime.now().subtract(Duration(days: index)),
@@ -91,6 +91,6 @@ class DummyData {
   static List<String> get reelsVideos {
     // For now we simulate reels using images since we can't use external video_player plugins 
     // without breaking the zero-dependency rule, but we'll adapt it visually to look like a reel with PageView.
-    return List.generate(5, (index) => 'https://picsum.photos/id/${300 + index}/600/1200');
+    return List.generate(5, (index) => 'https://picsum.photos/seed/reel_$index/600/1200');
   }
 }

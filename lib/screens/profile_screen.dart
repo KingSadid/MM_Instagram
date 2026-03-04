@@ -35,11 +35,11 @@ class ProfileScreen extends StatelessWidget {
               SliverPersistentHeader(
                 pinned: true,
                 delegate: _SliverAppBarDelegate(
-                  const TabBar(
-                    indicatorColor: Colors.black, // Dark mode support needed later if variable
-                    labelColor: Colors.black, // Will let theme override but explicit is fine here
+                  TabBar(
+                    indicatorColor: Colors.white,
+                    labelColor: Colors.white,
                     unselectedLabelColor: Colors.grey,
-                    tabs: [
+                    tabs: const [
                       Tab(icon: Icon(Icons.grid_on)),
                       Tab(icon: Icon(Icons.person_pin_outlined)),
                     ],
@@ -150,7 +150,7 @@ class ProfileScreen extends StatelessWidget {
       itemCount: 15,
       itemBuilder: (context, index) {
         return CustomNetworkImage(
-          imageUrl: 'https://picsum.photos/id/${150 + index}/400/400',
+          imageUrl: 'https://picsum.photos/seed/profile_$index/400/400',
           fit: BoxFit.cover,
         );
       },

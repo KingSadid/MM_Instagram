@@ -14,8 +14,7 @@ class InstagramApp extends StatelessWidget {
     return MaterialApp(
       title: 'Instagram Clone',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
+      theme: AppTheme.darkTheme,
       home: const MainWrapper(),
     );
   }
