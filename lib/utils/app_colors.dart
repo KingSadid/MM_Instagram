@@ -13,7 +13,6 @@ class AppColors {
   static const Color blue = Color(0xFF1877F2); // Instagram link blue
   static const Color red = Color(0xFFED4956); // Heart red
 
-  // Gradient for Stories
   static const LinearGradient storyGradient = LinearGradient(
     colors: [
       Color(0xFFFEDA75),

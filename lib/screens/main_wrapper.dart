@@ -16,7 +16,6 @@ class MainWrapper extends StatefulWidget {
 class _MainWrapperState extends State<MainWrapper> {
   int _currentIndex = 0;
 
-  // Placeholder pages for each tab. Later replaced with actual feature implementations.
   final List<Widget> _pages = [
     const HomeScreen(),
     const SearchScreen(),

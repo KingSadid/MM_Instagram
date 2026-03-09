@@ -30,7 +30,7 @@ class DummyData {
       return StoryModel(
         id: 's_$index',
         user: user,
-        imageUrl: 'https://picsum.photos/seed/story_$index/400/800', // Unique vertical random image
+        imageUrl: 'https://picsum.photos/seed/story_$index/400/800', 
         isViewed: index > 3,
       );
     }).toList();
